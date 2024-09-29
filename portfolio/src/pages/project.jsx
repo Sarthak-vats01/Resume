@@ -5,7 +5,7 @@ function project() {
   return (
     <div>
       <Navbar />
-      <div className="flex  justify-center">
+      <div className="flex font-mono justify-center">
         <Projects />
       </div>
     </div>

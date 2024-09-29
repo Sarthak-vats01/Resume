@@ -4,7 +4,7 @@ import Title from "../component/Title.jsx";
 
 function Homepage() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col font-mono">
       <Navbar />
       <Title />
     </div>
