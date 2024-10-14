@@ -2,6 +2,7 @@ import React from "react";
 import Netflix from "../assets/Netflix.png";
 import Pokedex from "../assets/Pokedex.png";
 import MyShop from "../assets/MyShop.png";
+import work from "../assets/work.png";
 
 function Projects() {
   return (
@@ -18,7 +19,29 @@ function Projects() {
         </p>
       </div>
 
+      {/* Magic Marketing*/}
+      <div
+        className="flex flex-col md:flex-row md:items-center md:space-x-6 border border-gray-200 rounded-lg p-6 shadow-xl hover:shadow-2xl hover:scale-105 transition-transform duration-300 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 cursor-pointer"
+        onClick={() =>
+          (window.location.href = "https://magicmarketing.onrender.com/")
+        }
+      >
+        <div className="md:w-1/2 text-gray-700 hover:text-white transition-colors duration-300">
+          <h2 className="font-semibold text-2xl mb-4">Pokedex</h2>
+          <p className="leading-relaxed">
+            A Digital marketing organization's website built using React and
+            tailwind, showing portfolio and many other features.
+          </p>
+        </div>
+        <img
+          className="mt-4 md:mt-0 md:w-1/2 w-full h-auto rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+          src={work}
+          alt="Pokedex Project"
+        />
+      </div>
+
       {/* Pokedex Project */}
+
       <div
         className="flex flex-col md:flex-row md:items-center md:space-x-6 border border-gray-200 rounded-lg p-6 shadow-xl hover:shadow-2xl hover:scale-105 transition-transform duration-300 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 cursor-pointer"
         onClick={() =>
