@@ -10,6 +10,14 @@ function Projects() {
         My Projects
       </h1>
 
+      {/* Notification about server delay */}
+      <div className="bg-yellow-100 text-yellow-800 border border-yellow-200 rounded-lg p-4 text-center shadow-lg">
+        <p>
+          Please note: The backend servers are hosted on a free service, which
+          might take a few seconds to start. Thank you for your patience!
+        </p>
+      </div>
+
       {/* Pokedex Project */}
       <div
         className="flex flex-col md:flex-row md:items-center md:space-x-6 border border-gray-200 rounded-lg p-6 shadow-xl hover:shadow-2xl hover:scale-105 transition-transform duration-300 hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 cursor-pointer"
