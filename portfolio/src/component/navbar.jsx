@@ -12,7 +12,7 @@ function Navbar() {
       {/* Logo and Name */}
       <div
         className="flex items-center text-white font-mono font-bold text-lg md:text-2xl lg:text-3xl cursor-pointer transition-transform hover:scale-105"
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/homepage")}
       >
         <img
           className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 mr-2"
@@ -42,7 +42,7 @@ function Navbar() {
         <span className="text-gray-300">|</span>
         <a
           className="hover:text-yellow-300 transition-colors duration-200 ease-in-out cursor-pointer"
-          onClick={() => navigate("/projects")}
+          onClick={() => navigate("/")}
         >
           Projects
         </a>

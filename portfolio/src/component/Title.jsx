@@ -51,7 +51,7 @@ function Title() {
           {/* Navigate to Projects button */}
           <button
             className="flex rounded-full w-32 h-32 border-2 border-transparent shadow-md justify-center items-center bg-red-600 text-white hover:bg-red-500 hover:scale-105 transition-transform duration-200 ease-in-out"
-            onClick={() => navigate("/projects")}
+            onClick={() => navigate("/")}
           >
             Projects
           </button>
