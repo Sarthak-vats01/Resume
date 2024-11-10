@@ -27,7 +27,7 @@ function Projects() {
         }
       >
         <div className="md:w-1/2 text-gray-700 hover:text-white transition-colors duration-300">
-          <h2 className="font-semibold text-2xl mb-4">Pokedex</h2>
+          <h2 className="font-semibold text-2xl mb-4">Magic Marketing</h2>
           <p className="leading-relaxed">
             A Digital marketing organization's website built using React and
             tailwind, showing portfolio and many other features.
